@@ -114,13 +114,9 @@ Live Application
 # 🌐 Live Application
 
 ```
-http://YOUR-EC2-PUBLIC-IP:5000
+http://13.233.146.167:5000/
 ```
 
-Example
-
-```
-http://13.233.146.167:5000
 ```
 
 ---
