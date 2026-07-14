@@ -1,0 +1,17 @@
+name: Jenkins CI/CD Reference
+
+on:
+  workflow_dispatch:
+
+jobs:
+  information:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Display Information
+        run: |
+          echo "===================================="
+          echo "This project uses Jenkins CI/CD."
+          echo "GitHub Actions workflow is only"
+          echo "included as a reference."
+          echo "===================================="
